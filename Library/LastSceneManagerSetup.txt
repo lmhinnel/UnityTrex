@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Prefabs/respawnScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
