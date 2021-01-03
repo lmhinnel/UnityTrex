@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class themeScrolling : MonoBehaviour
 {
-    public float speed = -5f;
-    Vector2 startPos;
+    public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
-        startPos = transform.position;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        float newPos = Mathf.Repeat(Time.time * speed, 20);
-        transform.position = startPos + Vector2.right * newPos;
+        GetComponent<Renderer>().material.mainTextureOffset = new Vector2((Time.timeSinceLevelLoad * speed) % 1, 0f);
     }
 }

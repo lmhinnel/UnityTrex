@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class Nyan : MonoBehaviour
 {
     public float y = 5f;
-    public bool Jumping = false;
+    public bool Jumping;
     // Start is called before the first frame update
     void Start()
     {
-        Jumping = false;
+        Jumping = true;
     }
 
     // Update is called once per frame

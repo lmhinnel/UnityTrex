@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Obs : MonoBehaviour
 {
-    public float speed = 3f;
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame

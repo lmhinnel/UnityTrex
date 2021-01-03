@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Prefabs/respawnScene.unity
+    path: Assets/Scenes/respawnScene.unity
     guid: d525846cbcce86f48aa4305a2bc52359
   m_configObjects: {}
